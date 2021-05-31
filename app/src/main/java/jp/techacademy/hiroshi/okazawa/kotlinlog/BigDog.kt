@@ -5,7 +5,7 @@ import android.util.Log
 class BigDog: Dog {
 
     // superで親クラスのコンストラクタを呼ぶ
-    constructor(name: String, age: Int, think: String): super(name, age, think) {
+    constructor(name: String, age: Int): super(name, age) {
     }
 
     override fun say() {
